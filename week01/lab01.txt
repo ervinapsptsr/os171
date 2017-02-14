@@ -21,3 +21,4 @@ drwxr-xr-x  2 ervina.puspita StafCS 4096 Feb 14 14:32 week09
 drwxr-xr-x  2 ervina.puspita StafCS 4096 Feb 14 14:33 week10
 drwxr-xr-x  2 ervina.puspita StafCS 4096 Feb 14 14:33 xtra
 /home/fasilkom/mahasiswa/e/ervina.puspita/os171/week01
+Today is 14 Feb 2017 at 15:31:05

@@ -1,4 +1,7 @@
-w00-170214-10-LR-About: HKI and Linux Learning, From: Lecturer
-w00-170214-10-LR-About: HKI and Linux Learning, From: Lecturer
-w00-170214-19-PS-About: GITHUB Learning
-w00-170214-13-PS-About: GITHUB Learning
+w01-170214-10-LR-About: HKI and Linux Learning, From: Lecturer
+w01-170214-10-LR-About: HKI and Linux Learning, From: Lecturer
+w01-170214-19-PS-About: GITHUB Learning
+w01-170214-13-PS-About: GITHUB Learning
+w01-170217-10-LR-About: About Scripting
+w01-170217-10-LR-About: About Scripting
+

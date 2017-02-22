@@ -1,0 +1,6 @@
+/home/fasilkom/mahasiswa/e/ervina.puspita/.gnupg/pubring.gpg
+------------------------------------------------------------
+pub   2048R/90958397 2017-02-22
+uid                  Ervina Puspita (Wooow) <ervina.psptsr@gmail.com>
+sub   2048R/4CEF9C9D 2017-02-22
+

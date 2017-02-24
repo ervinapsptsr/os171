@@ -1,0 +1,14 @@
+/home/fasilkom/mahasiswa/e/ervina.puspita/.gnupg/pubring.gpg
+------------------------------------------------------------
+pub   2048R/90958397 2017-02-22
+uid                  Ervina Puspita (Wooow) <ervina.psptsr@gmail.com>
+sub   2048R/4CEF9C9D 2017-02-22
+
+pub   4096R/BD4AD71E 2016-09-12 [expires: 2017-03-11]
+uid                  Os Team (OSTEAM) <osteam@localhost>
+sub   4096R/937D25BA 2016-09-12 [expires: 2017-03-11]
+
+pub   4096R/B14E73A6 2017-02-24 [expires: 2017-08-23]
+uid                  Ervina Puspita Sari (OS oh OS) <ervina.psptsr@gmail.com>
+sub   4096R/315260DE 2017-02-24 [expires: 2017-08-23]
+

@@ -1,0 +1,6 @@
+total 16
+drwxr-xr-x 2 ervina.puspita StafCS 4096 Feb 24 21:57 .
+drwxr-xr-x 3 ervina.puspita StafCS 4096 Feb 21 01:20 ..
+-rw-r--r-- 1 ervina.puspita StafCS 1550 Feb 24 21:55 00-toc.txt
+-rw-r--r-- 1 ervina.puspita StafCS 3108 Feb 24 21:56 01-public-osteam.txt
+-rw-r--r-- 1 ervina.puspita StafCS    0 Feb 24 21:57 02-ls-al.txt

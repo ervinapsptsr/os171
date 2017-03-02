@@ -1,0 +1,51 @@
+HHello, this is explanation about linux booting!
+
+Ada 6 proses dalam Linuk Startup Process
+1) BIOS (Basic Input/Output)
+Berfungsi mengecek system integrity sebelum booting. BIOS akan mengambil data pert$
+2) MBR (Master Boot Record)
+Tempat dipasangnya boot loader agar sistem operasi yang terdapat pada hard disk at$
+3) GRUB
+GRUB atau LILO (Versi lama) adalah jenis dari boot loader. Boot loader berfungsi m$
+4) Kernel
+Merupakan suatu penghubung antara software dan hardware. Serta mengatur berapa lam$
+5) Init
+Merupakan proses yang pertama kali dipanggil ketika linux diboot dan merupakan int$
+0-halt
+1-Single user mode
+2-Multiple users, baris perintah antarmuka
+3-Full multiuser mode
+4-unused
+5-X11
+6-Reboout
+6) Runlevel
+Merupakan program-program yang akan dijalankan ketika sistem booting up,  seperti $
+
+Jadi proses dari awal startup linuk ialah dimulai dengan BIOS yang mengeksekusi bo$
+
+
+ello, this is explanation about linux booting!
+
+Ada 6 proses dalam Linuk Startup Process
+1) BIOS (Basic Input/Output) 
+Berfungsi mengecek system integrity sebelum booting. BIOS akan mengambil data pertama dari ROM dan eksekusi pertama kali boot loader.
+2) MBR (Master Boot Record)
+Tempat dipasangnya boot loader agar sistem operasi yang terdapat pada hard disk atau media boot lainnya bisa di-boot dengan baik.
+3) GRUB
+GRUB atau LILO (Versi lama) adalah jenis dari boot loader. Boot loader berfungsi memaggil sistem operasi pada hard disk dan medaia yang bisa di-boot  seperti flashdisk.
+4) Kernel
+Merupakan suatu penghubung antara software dan hardware. Serta mengatur berapa lama suatu program dapat menggunakan suatu bagian perangkat keras (multiplexing).
+5) Init
+Merupakan proses yang pertama kali dipanggil ketika linux diboot dan merupakan inti dari proses untuk menjalankan mounting filesystem, service, dsbg. Secara umum terdiri dari 7 level
+0-halt
+1-Single user mode
+2-Multiple users, baris perintah antarmuka
+3-Full multiuser mode
+4-unused
+5-X11
+6-Reboout
+6) Runlevel
+Merupakan program-program yang akan dijalankan ketika sistem booting up,  seperti mengirim email, melihat dokumen, dsbg. 
+
+Jadi proses dari awal startup linuk ialah dimulai dengan BIOS yang mengeksekusi boot loader dengan data dari ROM, lalu menuju MBR tempat melekatnya boot loader, dan kemudian menjalankan boot loader (bisa berupa GRUB atau LILO) . Selanjutnya Kernel akan mengatur hubungan software dengan hardware apa saja yang akan dihubungkan. Dan Init akan menjalankan runlevel program. 
+

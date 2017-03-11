@@ -1,0 +1,19 @@
+a. What are the differences about the code and the output from both program?
+Kedua kode tersebut hampir serupa, perbedaanya terletak pada deklarasi variablenya. Salah satunya dideklarasikan di luar void, dan lainnya di dalam void.
+Output yang dihasilkan dari keduanya pun berbeda. Perbedaannya terletak pada address.
+
+
+b. Why Global Variable Address number and Local Variable Address number have a
+great difference in their address?
+Pada umumnya local variabel disimpan dalam stack dan global variable dalam data section.
+Dari keduanya tentu dibutuhkan waktu proses yang berbeda sehingga menyebabkan juga perbedaan hebat dalam address. 
+
+c. Write your knowledge about Global Variable Address and Local Variable Address
+Global Variable adalah variabel yang dideklarasikan di luar semua fungsi.
+
+Local Variable adalah variabel yang dideklarasikan di dalam suatu fungsi.
+
+source:
+https://www.codingunit.com/c-tutorial-functions-and-global-local-variables
+http://stackoverflow.com/questions/18446171/how-do-compilers-assign-memory-addresses-to-variables
+

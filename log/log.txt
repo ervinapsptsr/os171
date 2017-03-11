@@ -11,3 +11,14 @@ W02-170222-19-PS-About: Privacy Matters, Encryption and Digital Signature using 
 W02-170223-10-LR-About: GnuPG and how to use Putty
 W02-170223-10-LR-About: GnuPG and how to use Putty
 W02-170225-20-PS-About: Repeated about GnuPG 
+W03-170228-10-LR-About: BIOS and booting process
+W03-170228-10-LR-About: BIOS and booting process
+W03-170302-10-LR-About: BIOS and booting process
+W03-170302-10-LR-About: Adressing, Pointer & I/0 Programming
+W03-170302-23-PS-About: Linux Startup Process
+W03-170303-00-PS-About: Linux Startup Process
+W04-170307-19-LR-About: I/O
+W04-170307-19-LR-About: I/O
+W04-170309-10-LR-About: demo di os
+W04-170309-10-LR-About: demo di os
+W05-170310-20-PS-About: week04 lab

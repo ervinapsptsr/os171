@@ -1,0 +1,10 @@
+Program 06-memory.c melakukan pengalokasian memori yang tepat. 
+Malloc() berfungsi untuk memesan/meminta alokasi memori saat runtime. Sementara free()  berfungsi untuk membebaskan memori. Memori harus dibebaskan agar tidak habis dan dapat dipakai untuk proses berikutnya. Selain itu agar mencegah terjadinya memori leaks atau hilangnya memori komputer yang tersedia secara bertahap ketika sebuah program (aplikasi atau bagian dari sistem operasi) berulang kali gagal untuk mengembalikan memori yang telah diperoleh untuk penggunaan sementara.
+Apa yang dilakukan program tersebut adalah membedakan saat memori hanya diminta lalu kemudian dikembalikan (yang ada di luar loop) dengan memori yang diminta lalu dipakai terlebih dahulu dan kemudian dikembalikan (yang ada di dalam loop). Keduanya dibandingkan kemudian ditampilkan performanya masing-masing.
+Sementara system() yang isinya atadalah strSYS1 merupakan fungsi yang berperan mengalokasikan tempat untuk menyimpan suatu data String. Di sini strSYS berisi MAXSTR yang merupakan variable dari banyaknya jumlah char yang boleh masuk ke strSYS. 
+
+
+Referensi :
+http://gaptex.com/pengertian-memory-leak/
+http://belajarinformatics.blogspot.co.id/2012/04/alokasi-memori-dinamis-dengan-fungsi.html
+

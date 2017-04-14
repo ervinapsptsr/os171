@@ -28,3 +28,8 @@ W05-170316-10-LR-About: Memori dan pembahasan soal UTS
 W05-170316-10-LR-About: Memori dan pembahasan soal UTS
 W05-170318-12-PS-About: malloc() and system()
 W05-170318-12-PS-About: malloc() and system()
+W06-170411-10-LR-About: Thread and Process
+W06-170411-10-LR-About: Thread and Process
+w06-170415-03-PS-About: Fork, PPID, PID, etc
+w06-170415-03-PS-About: Fork, PPID, PID, etc
+

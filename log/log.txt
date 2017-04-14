@@ -21,4 +21,10 @@ W04-170307-19-LR-About: I/O
 W04-170307-19-LR-About: I/O
 W04-170309-10-LR-About: demo di os
 W04-170309-10-LR-About: demo di os
-W05-170310-20-PS-About: week04 lab
+W04-170310-20-PS-About: week04 lab
+W05-170314-10-LR-About: Memori
+W05-170314-10-LR-About: Memori
+W05-170316-10-LR-About: Memori dan pembahasan soal UTS
+W05-170316-10-LR-About: Memori dan pembahasan soal UTS
+W05-170318-12-PS-About: malloc() and system()
+W05-170318-12-PS-About: malloc() and system()

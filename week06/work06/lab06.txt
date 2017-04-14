@@ -1,0 +1,17 @@
+# Github Account : ervinapsptsr
+
+1.	
+-PID  atau Proses ID adalah suatu angka-angka yang digunakan untuk mengidentifikasi sebuah proses. 
+-Parent Proses ID adalah orang tua dari PID, setiap PID pasti mempunyai PPID. 
+-Fungsi dari getpid() adalah mengembalikan PID dari calling proses. 
+-Fungsi dari getppid() adalah mengembalikan Parent PID dari calling proses.
+-Sleep adalah keadaan di mana eksekusi ditunda (proses tidak mengerjakan apa-apa selama beberapa detik).
+-Wait() yaitu keadaan di mana proses parent dapat menunggu penghentian proses anak.
+-Fork() berfungsi memecah suatu fungsi menjadi 2 bagian(membuat fungsi baru). Fungsi ini mereturn suatu integer, 0 untuk anak dan 1 untuk parent.
+
+
+2.	
+-procStatus berfungsi untuk mengeprint output dengan masukan atribut level.
+-Ketika suatu proses merupakan anak, maka jumlah level akan diincrement  dan proses wait(NULL) adalah proses di mana parent harus menunggu proses anak tersebut selesai
+-Fflush(NULL) berfungsi seperti flush, yaitu untuk mencegah agar tidak terjadi kesalahan dalam print. Laptop menggunakan kernel yang berbeda dengan linux. 
+

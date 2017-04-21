@@ -32,4 +32,8 @@ W06-170411-10-LR-About: Thread and Process
 W06-170411-10-LR-About: Thread and Process
 w06-170415-03-PS-About: Fork, PPID, PID, etc
 w06-170415-03-PS-About: Fork, PPID, PID, etc
-
+w07-170418-10-LR-About: Proses Sinkronsasi
+w07-170418-10-LR-About: Proses Sinkronsasi
+w07-170420-10-LR-About: Scheduling
+w07-170420-10-LR-About: Scheduling
+w07-170421-17-PS-About: Semaphore dan Proses Sinkronsasi

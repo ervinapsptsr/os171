@@ -1,0 +1,36 @@
+# Github Account : ervinapsptsr
+
+1) 03-readwrite.c
+
+a)
+Program 03-readwrite.c memiliki 2 semaphore yaitu rmutex dan wmutex. Program ini juga memiliki 2 method yaitu Reader dan Writer. 
+Reader memiliki perintah-perintah di antaranya, int my_ID, wait (&rmutex), my_ID=reader_ID++, printf(READER %d: SIAP...), while(TRUE).
+Writer memiliki perintah-perintah di antaranya, int my_ID, wait(&wmutex) , my_ID=writer_ID++, post(&wmutex), printf("WRITER %d: SIAP..."), while(TRUE).
+Program ini saling bergantian menjalankan perintahnya, dimulai dari Reader dulu kemudian ke bagian Writer.
+
+
+b)
+Critical Section merupakan sebuah protokol di mana proses-proses dapat menggunakannya secara bersama-sama. Untuk masuk ke critical selection, setiap proses harus meminta izin disebut entry section, apabila telah selesai maka disebut exit section.  
+
+c)
+Tujuan dari penggunaan mutex adalah agar dua thread atau lebih dapat berkerja bersama untuk mencapai tujuan, saling bergantian up & down. Jika tidak ada mutex yang berfungsi sebagai penjadwal/pengatur, maka thread yang berjalan bersama memerlukan lebih banyak waktu karena tidak dilakukan secara paralel.  
+
+
+
+
+2) 05-balap.c 
+
+a) 
+Program 05-balap.c memiliki 2 semaphore yaitu mutex (bernilai 1) dan start (bernilai 0) . Program ini memiliki bandar dan pembalap sebagai method di mana masing-masing method terdiri dari beberapa perintah.
+Bandar memiliki, wait (&start) sebanyak  10X, wait (&mutex), rehat_acak(), printf(“Bandar Siap!”), post  (&mutex) . 
+Sementara pembalap memiliki  (int id, wait(&mutex) , id = idmaster++, post(&mutex) , post(&start), printf(“Pembalap %d Siap!\n",id) , rehat_acak(), wait(&mutex), if menang==TRUE, printf(" %2.2d juara %2.2d!\n",id,juara++), menang=FALSE, post(&mutex) . 
+Program dijalankan berputar dengan berpatokan pada semaphore, perintah wait(&nama_semaphore) mengubah nilai semaphore menjadi 0, sementara perintah post(&nama_semaphore) mengubah nilai menjadi 1.  Jika semaphore bernilai 0 maka proses akan berputar bergantian tanpa dieskekusi, lain halnya jika semaphore bernilai 1 maka salah satu perintah akan dieskeskusi.  Program 05-balap.c  mengeskekusi perintah printf(“Pembalap %d Siap!\n",id) sebanyak 10x karena pengaruh loop wait(&start) kemudian mengeksekusi perintah printf(“Bandar Siap!), lalu menjalankan if menang == TRUE yang mencetak “HORE.....” diikuti dengan  “Aduh......” sebanyak 9X karena menang sudah bernilai FALSE. 
+
+b)
+Critical Section merupakan sebuah protokol di mana proses-proses dapat menggunakannya secara bersama-sama. Untuk masuk ke critical selection, setiap proses harus meminta izin disebut entry section, apabila telah selesai maka disebut exit section.  
+Pada proses 05-balap.c proses yang pertama kali masuk ke dalam critical selection adalah printf (Pembalap %d Siap!\n",id) kemudian rehat_acak() yang mengacak nomer pembalap, kemudian printf(“Bandar Siap!”), kemudian if menang==TRUE yang mencetak “HORE....”, diakhiri dengan perintah menang=FALSE yang kemudian membuat if menang ==TRUE tidak valid lg sehingga printf(“Aduh.......”) .
+
+c)
+Tujuan dari penggunaan mutex adalah agar dua thread atau lebih dapat berkerja bersama untuk mencapai tujuan, saling bergantian up & down. Jika tidak ada mutex yang berfungsi sebagai penjadwal/pengatur, maka thread yang berjalan bersama memerlukan lebih banyak waktu karena tidak dilakukan secara paralel. 
+
+

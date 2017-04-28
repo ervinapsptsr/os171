@@ -37,3 +37,7 @@ w07-170418-10-LR-About: Proses Sinkronsasi
 w07-170420-10-LR-About: Scheduling
 w07-170420-10-LR-About: Scheduling
 w07-170421-17-PS-About: Semaphore dan Proses Sinkronsasi
+w08-170425-10-LR-About: CPU Time, Scheduling, Utilization, etc
+w08-170425-10-LR-About: CPU Time, Scheduling, Utilization, etc
+w08-170428-20-PS-About: Socket....
+w08-170429-10-PS-About: Socket....

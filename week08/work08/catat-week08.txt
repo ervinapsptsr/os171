@@ -1,0 +1,54 @@
+Script started on Jum 28 Apr 2017 01:20:02  WIB
+]0;ervina.puspita@cslab-11-188: ~/work08[01;32mervina.puspita@cslab-11-188[00m:[01;34m~/work08[00m$ ls -al
+total 76
+drwxr-xr-x  2 ervina.puspita StafCS  4096 Apr 28 13:20 [0m[01;34m.[0m
+drwxr-xr-x 18 ervina.puspita StafCS  4096 Apr 28 13:13 [01;34m..[0m
+-rwxr-xr-x  1 ervina.puspita StafCS  9400 Apr 28 13:15 [01;32m00-server[0m
+-rw-r--r--  1 ervina.puspita StafCS  1791 Nov 11 17:31 00-server.c
+-rwxr-xr-x  1 ervina.puspita StafCS 13736 Apr 28 13:15 [01;32m01-client[0m
+-rw-r--r--  1 ervina.puspita StafCS  1851 Nov 11 17:31 01-client.c
+-rwxr-xr-x  1 ervina.puspita StafCS 14024 Apr 28 13:15 [01;32m02-clisvr[0m
+-rw-r--r--  1 ervina.puspita StafCS  6315 Nov 11 17:32 02-clisvr.c
+-rw-r--r--  1 ervina.puspita StafCS     0 Apr 28 13:20 catat-week08.txt
+-rw-r--r--  1 ervina.puspita StafCS    33 Apr 28 13:14 lab08.txt
+-rw-r--r--  1 ervina.puspita StafCS   526 Nov 11 17:32 Makefile
+]0;ervina.puspita@cslab-11-188: ~/work08[01;32mervina.puspita@cslab-11-188[00m:[01;34m~/work08[00m$ /sbin/ifconfig
+eth1      Link encap:Ethernet  HWaddr 2c:41:38:92:c3:20  
+          inet addr:152.118.25.71  Bcast:152.118.25.255  Mask:255.255.255.0
+          inet6 addr: fe80::1656:20cb:dc8:ff45/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:17393 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:5851 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:13467874 (13.4 MB)  TX bytes:564685 (564.6 KB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:669 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:669 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:58887 (58.8 KB)  TX bytes:58887 (58.8 KB)
+
+]0;ervina.puspita@cslab-11-188: ~/work08[01;32mervina.puspita@cslab-11-188[00m:[01;34m~/work08[00m$ [K]0;ervina.puspita@cslab-11-188: ~/work08[01;32mervina.puspita@cslab-11-188[00m:[01;34m~/work08[00m$ ./01-client [K]0;ervina.puspita@cslab-11-188: ~/work08[01;32mervina.puspita@cslab-11-188[00m:[01;34m~/work08[00m$ ./01-client 152.118.25.71[K]0;ervina.puspita@cslab-11-188: ~/work08[01;32mervina.puspita@cslab-11-188[00m:[01;34m~/work08[00m$ ./01-client 152.118.25.71 9001[K]0;ervina.puspita@cslab-11-188: ~/work08[01;32mervina.puspita@cslab-11-188[00m:[01;34m~/work08[00m$ ./01-client 152.118.25.71 9001
+Enter the message: Haloha....      ha...
+[FROM SERVER] ACK MESSAGE...
+
+]0;ervina.puspita@cslab-11-188: ~/work08[01;32mervina.puspita@cslab-11-188[00m:[01;34m~/work08[00m$ [K]0;ervina.puspita@cslab-11-188: ~/work08[01;32mervina.puspita@cslab-11-188[00m:[01;34m~/work08[00m$ ls -al
+total 76
+drwxr-xr-x  2 ervina.puspita StafCS  4096 Apr 28 13:20 [0m[01;34m.[0m
+drwxr-xr-x 18 ervina.puspita StafCS  4096 Apr 28 13:35 [01;34m..[0m
+-rwxr-xr-x  1 ervina.puspita StafCS  9400 Apr 28 13:15 [01;32m00-server[0m
+-rw-r--r--  1 ervina.puspita StafCS  1791 Nov 11 17:31 00-server.c
+-rwxr-xr-x  1 ervina.puspita StafCS 13736 Apr 28 13:15 [01;32m01-client[0m
+-rw-r--r--  1 ervina.puspita StafCS  1851 Nov 11 17:31 01-client.c
+-rwxr-xr-x  1 ervina.puspita StafCS 14024 Apr 28 13:15 [01;32m02-clisvr[0m
+-rw-r--r--  1 ervina.puspita StafCS  6315 Nov 11 17:32 02-clisvr.c
+-rw-r--r--  1 ervina.puspita StafCS     0 Apr 28 13:20 catat-week08.txt
+-rw-r--r--  1 ervina.puspita StafCS    33 Apr 28 13:14 lab08.txt
+-rw-r--r--  1 ervina.puspita StafCS   526 Nov 11 17:32 Makefile
+]0;ervina.puspita@cslab-11-188: ~/work08[01;32mervina.puspita@cslab-11-188[00m:[01;34m~/work08[00m$ [K]0;ervina.puspita@cslab-11-188: ~/work08[01;32mervina.puspita@cslab-11-188[00m:[01;34m~/work08[00m$ exit
+exit
+
+Script done on Jum 28 Apr 2017 01:36:27  WIB

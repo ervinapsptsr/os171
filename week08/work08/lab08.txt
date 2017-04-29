@@ -1,0 +1,32 @@
+# Github Account : ervinapsptsr
+
+00-server.c
+Proses yang terjadi dalam program ini adalah proses reading.
+Tidak seperti 2 porgram yang lain munggunakan host, program ini menggunakan port. 
+Program ini berperan sebagai server yang dapat menerima pesan dari client. 
+
+
+
+01-client.c
+Proses yang terjadi dalam program ini adalah proses menerima pesan.
+Dia berperan sebagai client dan server sehingga dia dapat mengirim
+dan menerima pesan ke diri sendiri (komputer yang sama).
+
+
+02-clisvr.c
+Proses yang terjadi dalam program ini adalah proses mengirim sekaligus
+menerima pesan. Dia juga berperan sebagai client dan server, namun pesan
+dikirimkan ke komputer lain.
+
+Ada 3 proses yaitu initiating, bridging, dan terminating. 
+Proses initiating pada program ini berupa mengirimkan pesan "Hello" kepada
+instance yang lain baik yang sedang berperan dalam bridging maupun terminating.
+"Hello" hanya dikirim tanpa dicetak.
+
+Pada proses bridging, "Hello" diterima dan ditampilkan ke layar, selain itu
+"Hello" akan dikirimkan juga ke instance yang lain.
+
+Pada proses terminating, "Hello" terakhir akan diterima kemudian dicetak 
+sebelum program berhenti/exit. 
+
+
